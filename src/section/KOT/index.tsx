@@ -22,7 +22,7 @@ const KOTPage: React.FC = ({ kotItems }) => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-4">KOT Order Tickets (KOTs)</h1>
+      <h1 className="text-2xl font-bold mb-4">Kitchen Order Tickets (KOTs)</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {kots.map((kot) => (
           <Card
